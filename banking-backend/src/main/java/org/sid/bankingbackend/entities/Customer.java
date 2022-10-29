@@ -9,7 +9,9 @@ import javax.annotation.Generated;
 import javax.persistence.*;
 import java.util.List;
 @Entity
-@Data @AllArgsConstructor @NoArgsConstructor
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Customer {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
